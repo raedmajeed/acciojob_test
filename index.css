@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(0, 183, 255);
+  }
+  
+  h4 {
+    color: rgb(3, 167, 232);
+    font-size: 1rem;
+  }
+  
+  h5 {
+    font-size: 1rem;
+  }
+  
+  /********* navbar *********/
+  
+  .navbar-color {
+    background-color: transparent;
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  
+  .nav-item {
+    margin: 0 1rem;
+  }
+  
+  /*********** Main Page **********/
+  
+  /* .banner-image {
+    height: 80vh;
+  } */
+  
+  header {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('./image/car-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: top;
+  }
+  
+  .container-main {
+    width: 100vw;
+    margin: 0 auto;
+    top: 40%;
+  }
+  
+  /************* button ***********/
+  
+  .button,
+  .button-nav {
+    background-color: rgb(3, 167, 232);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+  }
+  
+  .button {
+    font-size: 1.5rem;
+  }
+  
+  .button-nav {
+    font-size: 1rem;
+  }
+  
+  .button:hover,
+  .button-nav:hover {
+    background-color: rgb(69, 200, 252);
+  }
+  
+  /************** footer ***********/
+  
+  footer {
+    background-color: black;
+  }
